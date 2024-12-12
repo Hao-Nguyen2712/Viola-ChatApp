@@ -11,6 +11,9 @@ FrontEnd/node_modules/
 # Visual Studio Code settings
 .vscode/
 
+# Ignore Visual Studio specific files
+.vs/
+
 # OS specific files
 .DS_Store
 Thumbs.db
