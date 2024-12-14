@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Viola.Domain\Viola.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\DTOs\" />
+    <Folder Include="Common\Behaviors\" />
+    <Folder Include="Notification\" />
+  </ItemGroup>
+
 </Project>

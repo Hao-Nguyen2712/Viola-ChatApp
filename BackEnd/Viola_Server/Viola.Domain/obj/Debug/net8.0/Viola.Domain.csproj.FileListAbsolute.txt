@@ -1,0 +1,15 @@
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\bin\Debug\net8.0\Viola.Domain.deps.json
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\bin\Debug\net8.0\Viola.Domain.runtimeconfig.json
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\bin\Debug\net8.0\Viola.Domain.dll
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\bin\Debug\net8.0\Viola.Domain.pdb
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.csproj.AssemblyReference.cache
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.AssemblyInfoInputs.cache
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.AssemblyInfo.cs
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.csproj.CoreCompileInputs.cache
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.sourcelink.json
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.dll
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\refint\Viola.Domain.dll
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.pdb
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\Viola.Domain.genruntimeconfig.cache
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Domain\obj\Debug\net8.0\ref\Viola.Domain.dll
