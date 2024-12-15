@@ -5,7 +5,7 @@ namespace Viola.Domain.Entities;
 
 public partial class User
 {
-    public int UserId { get; set; }
+    public string UserId { get; set; } = null!;
 
     public string Email { get; set; } = null!;
 
@@ -32,4 +32,6 @@ public partial class User
     public virtual ICollection<Message> MessageFromUs { get; set; } = new List<Message>();
 
     public virtual ICollection<Message> MessageToUs { get; set; } = new List<Message>();
+
+    public virtual AspNetUser UserNavigation { get; set; } = null!;
 }

@@ -7,9 +7,9 @@ public partial class Friend
 {
     public int Id { get; set; }
 
-    public int ProviderId { get; set; }
+    public string ProviderId { get; set; } = null!;
 
-    public int RequestId { get; set; }
+    public string RequestId { get; set; } = null!;
 
     public string Status { get; set; } = null!;
 

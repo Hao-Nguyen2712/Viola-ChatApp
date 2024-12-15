@@ -28,7 +28,7 @@ namespace Viola.Persistance.Repositories
             return user;
         }
 
-        public async Task<User> DeleteUser(int id)
+        public async Task<User> DeleteUser(string id)
         {
             var user = await _context.Users.FirstOrDefaultAsync(a => a.UserId == id);
             if (user == null)
@@ -44,7 +44,7 @@ namespace Viola.Persistance.Repositories
             return await _context.Users.FirstOrDefaultAsync(a => a.Email == email) ?? throw new ArgumentNullException(nameof(email));
         }
 
-        public async Task<User> GetUserById(int id)
+        public async Task<User> GetUserById(string id)
         {
             return await _context.Users.FindAsync(id) ?? throw new ArgumentNullException(nameof(id));
         }

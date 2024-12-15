@@ -198,6 +198,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\.NET Project\\Github_MyProject\\Viola-ChatApp\\BackEnd\\Viola_Server\\Viola.Application\\Viola.Application.csproj": {
+                "projectPath": "D:\\.NET Project\\Github_MyProject\\Viola-ChatApp\\BackEnd\\Viola_Server\\Viola.Application\\Viola.Application.csproj"
+              },
               "D:\\.NET Project\\Github_MyProject\\Viola-ChatApp\\BackEnd\\Viola_Server\\Viola.Domain\\Viola.Domain.csproj": {
                 "projectPath": "D:\\.NET Project\\Github_MyProject\\Viola-ChatApp\\BackEnd\\Viola_Server\\Viola.Domain\\Viola.Domain.csproj"
               }
@@ -220,6 +223,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.11, )"

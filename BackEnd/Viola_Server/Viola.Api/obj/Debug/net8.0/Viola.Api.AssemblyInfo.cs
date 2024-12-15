@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Viola.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2dd629a6aaed28e13c0f5de2acb8ea1332955e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+037d958697548d9f8edfe7afb0621ec8af8ff390")]
 [assembly: System.Reflection.AssemblyProductAttribute("Viola.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Viola.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

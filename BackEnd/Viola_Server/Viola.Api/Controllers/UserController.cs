@@ -27,7 +27,7 @@ namespace Viola.Api.Controllers
 
         [HttpGet]
         [Route("GetUserById/{id}", Name = "GetUserById")]
-        public async Task<IActionResult> GetUserById(int id)
+        public async Task<IActionResult> GetUserById(string id)
         {
             var result = await _mediator.Send(new GetUserByIdQuerry(id));
             return Ok(result);

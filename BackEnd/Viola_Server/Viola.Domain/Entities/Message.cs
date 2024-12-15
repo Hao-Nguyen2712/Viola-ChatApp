@@ -13,9 +13,9 @@ public partial class Message
 
     public bool ReadStatus { get; set; }
 
-    public int FromUid { get; set; }
+    public string FromUid { get; set; } = null!;
 
-    public int ToUid { get; set; }
+    public string ToUid { get; set; } = null!;
 
     public virtual User FromU { get; set; } = null!;
 

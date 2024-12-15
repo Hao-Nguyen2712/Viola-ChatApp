@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Viola.Infrastructure.Identity.DbContext
 {
-    public class ViolaIdentityContext : IdentityDbContext<IdentityUser>
+    public class ViolaIdentityContext : IdentityDbContext<IdentityUser , IdentityRole , string>
     {
         public ViolaIdentityContext(DbContextOptions<ViolaIdentityContext> options)
             : base(options)

@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\DTOs\" />
     <Folder Include="Common\Behaviors\" />
     <Folder Include="Notification\" />
   </ItemGroup>

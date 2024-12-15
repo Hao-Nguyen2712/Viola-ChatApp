@@ -2,7 +2,9 @@ D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infras
 D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\bin\Debug\net8.0\Viola.Infrastructure.runtimeconfig.json
 D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\bin\Debug\net8.0\Viola.Infrastructure.dll
 D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\bin\Debug\net8.0\Viola.Infrastructure.pdb
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\bin\Debug\net8.0\Viola.Application.dll
 D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\bin\Debug\net8.0\Viola.Domain.dll
+D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\bin\Debug\net8.0\Viola.Application.pdb
 D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\bin\Debug\net8.0\Viola.Domain.pdb
 D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\obj\Debug\net8.0\Viola.Infrastructure.csproj.AssemblyReference.cache
 D:\.NET Project\Github_MyProject\Viola-ChatApp\BackEnd\Viola_Server\Viola.Infrastructure\obj\Debug\net8.0\Viola.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

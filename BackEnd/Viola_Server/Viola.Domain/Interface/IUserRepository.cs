@@ -9,11 +9,11 @@ namespace Viola.Domain.Interface
 {
     public interface IUserRepository
     {
-        Task<User> GetUserById(int id);
+        Task<User> GetUserById(string id);
         Task<User> GetUserByEmail(string email);      
         Task<IEnumerable<User>> GetUsers();
         Task<User> CreateUser(User user);
         Task<User> UpdateUser(User user);
-        Task<User> DeleteUser(int id);
+        Task<User> DeleteUser(string id);
     }
 }

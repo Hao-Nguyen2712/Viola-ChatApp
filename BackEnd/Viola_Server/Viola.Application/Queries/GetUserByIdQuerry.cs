@@ -8,5 +8,5 @@ using Viola.Domain.Entities;
 
 namespace Viola.Application.Queries
 {
-    public record GetUserByIdQuerry(int id) : IRequest<User>;
+    public record GetUserByIdQuerry(string id) : IRequest<User>;
 }

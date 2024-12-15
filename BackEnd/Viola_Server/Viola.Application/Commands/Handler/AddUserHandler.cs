@@ -21,14 +21,14 @@ namespace Viola.Application.Commands.Handler
         }
         public async Task<int> Handle(AddUserCommand request, CancellationToken cancellationToken)
         {
-            var user = mapper.Map<User>(request);
-            if (user == null)
-            {
-                throw new ApplicationException("There is an issue with the mapping");
-            }
-            await unitOfWork.User.CreateUser(user);
-            await unitOfWork.SaveChangesAsync(cancellationToken);
-            return user.UserId; 
+            //var user = mapper.Map<User>(request);
+            //if (user == null)
+            //{
+            //    throw new ApplicationException("There is an issue with the mapping");
+            //}
+            //await unitOfWork.User.CreateUser(user);
+            //await unitOfWork.SaveChangesAsync(cancellationToken);
+            return 1;
         }
     }
 }
