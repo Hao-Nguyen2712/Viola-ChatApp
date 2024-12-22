@@ -1,0 +1,16 @@
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\bin\Debug\net8.0\Viola.Application.deps.json
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\bin\Debug\net8.0\Viola.Application.dll
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\bin\Debug\net8.0\Viola.Application.pdb
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.AssemblyInfoInputs.cache
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.AssemblyInfo.cs
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.csproj.CoreCompileInputs.cache
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.sourcelink.json
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.dll
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\refint\Viola.Application.dll
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.pdb
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\ref\Viola.Application.dll
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\bin\Debug\net8.0\Viola.Domain.dll
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\bin\Debug\net8.0\Viola.Domain.pdb
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Application.csproj.AssemblyReference.cache
+D:\.NET Project\Github_MyProject\Viola_ChatApp\Viola-ChatApp\BackEnd\Viola_Server\Viola.Application\obj\Debug\net8.0\Viola.Ap.189872BE.Up2Date
