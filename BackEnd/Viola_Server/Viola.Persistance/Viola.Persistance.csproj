@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Viola.Application\Viola.Application.csproj" />
+    <ProjectReference Include="..\Viola.Domain\Viola.Domain.csproj" />
+    <ProjectReference Include="..\Viola.Infrastructure\Viola.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
