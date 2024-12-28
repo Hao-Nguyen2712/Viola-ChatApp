@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +8,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using Viola.Domain.Entities;
+using Viola.Domain.Models;
 using Viola.Infrastructure.Identity.DBContext;
 
 namespace Viola.Persistance.DBContext
@@ -19,6 +22,7 @@ namespace Viola.Persistance.DBContext
         }
 
 
+        public virtual DbSet<UserToken> UserTokens { get; set; }
 
         public virtual DbSet<Friend> Friends { get; set; }
 
@@ -34,6 +38,18 @@ namespace Viola.Persistance.DBContext
         {
 
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Ignore<IdentityUserToken<string>>();
+
+            modelBuilder.Entity<UserToken>(entity =>
+            {
+                entity.ToTable("AspNetUserTokens"); // Đảm bảo ánh xạ đến bảng gốc
+                entity.HasKey(e => new { e.UserId, e.LoginProvider, e.Name }); // Chỉ định khóa chính
+                entity.Property(e => e.CreatedAt).HasColumnType("datetime");
+                entity.Property(e => e.ExpiresAt).HasColumnType("datetime");
+                entity.Property(e => e.IsRevoked).HasColumnType("bit"); // Kiểu boolean
+          
+            });
+            modelBuilder.Entity<UserToken>().HasNoDiscriminator();
 
             modelBuilder.Entity<Friend>(entity =>
             {

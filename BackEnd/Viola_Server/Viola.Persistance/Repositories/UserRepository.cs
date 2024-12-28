@@ -23,7 +23,7 @@ namespace Viola.Persistance.Repositories
             {
                 throw new ArgumentNullException(nameof(user));
             }
-
+            
             await _context.Users.AddAsync(user);
         }
     }

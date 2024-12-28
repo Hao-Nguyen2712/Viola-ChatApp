@@ -9,6 +9,7 @@ namespace Viola.Domain.Repositories
     public interface IUnitOfWork : IDisposable
     {
         IUserRepository User { get; }
+        IUserTokenRepository UserToken { get; }
         Task SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

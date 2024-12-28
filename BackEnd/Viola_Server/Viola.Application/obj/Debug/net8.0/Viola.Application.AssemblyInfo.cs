@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Viola.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2dd629a6aaed28e13c0f5de2acb8ea1332955e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67136ec70339b2aa2e78ae7593d6536ac06619d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Viola.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Viola.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
