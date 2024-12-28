@@ -13,10 +13,13 @@ namespace Viola.Persistance.Repositories
         private readonly ViolaContext _context;
         public IUserRepository User { get; }
 
-        public UnitOfWork(ViolaContext context, IUserRepository user)
+        public IUserTokenRepository UserToken { get; }
+
+        public UnitOfWork(ViolaContext context, IUserRepository user, IUserTokenRepository userToken)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             User = user ?? throw new ArgumentNullException(nameof(user));
+            UserToken = userToken;
         }
 
         public void Dispose()

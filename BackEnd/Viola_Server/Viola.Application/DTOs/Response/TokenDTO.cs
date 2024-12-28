@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Viola.Application.DTOs
+namespace Viola.Application.DTOs.Response
 {
     public class TokenDTO
     {
