@@ -1,0 +1,16 @@
+services:
+  viola.api:
+    image: ${DOCKER_REGISTRY-}violaapi
+    container_name: viola.api
+    build:
+      context: .
+      dockerfile: Viola.Api/Dockerfil
+    ports: 
+       - "5000:5000"
+       - "5001:5001"
+
+  viola.database :
+     image : mssql/server:2022-latest
+     container_name: viola.database
+     
+       
