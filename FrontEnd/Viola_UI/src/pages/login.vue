@@ -8,7 +8,7 @@
 
         <div class="max-w-md mx-auto ">
           <div>
-            <h1 class="text-2xl font-semibold">Login</h1>
+            <h1 class="text-4xl  font-semibold text-center">Login</h1>
           </div>
           <div class="divide-y divide-gray-200">
             <div class="py-8 pb-3 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
@@ -32,7 +32,7 @@
               </div>
               <div class="relative ">
                 <button v-on:click="handleSubmit"
-                  class="bg-cyan-500 text-white rounded-md px-2 py-1 w-52">Submit</button>
+                  class="bg-cyan-500 text-white rounded-md px-2 py-1 w-52">Login</button>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
           </button>
         </div>
 
-        <div class="text-center mt-4">
+        <div class="text-center mt-4 hover:text-red-600">
           <router-link to="/forgetpassword">Forgot password?</router-link>
         </div>
         <div class="flex justify-center mt-2">
@@ -83,17 +83,29 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import axios from 'axios';
-import Token from '@/data/Token';
+import Token from '@/Models/Token';
 import { setToken } from '@/utils/storage';
-import { showSucess, showError, showLoading, closeLoading } from '@/utils/sweetalert';
-
+import { showSucess, showError, showLoading, closeLoading, showInfo } from '@/utils/sweetalert';
+import { useStore } from 'vuex';
+import { useRouter } from 'vue-router';
 const email = ref('');
 const password = ref('');
 const emailError = ref(false);
 const passwordError = ref(false);
+const store = useStore();
+const router = useRouter();
 
+// get message from store
+const registerMessage = computed(() => store.state.setLoginMessage);
+onMounted(() => {
+  if (registerMessage.value != null) {
+    console.log(registerMessage.value);
+    showInfo(registerMessage.value);
+    store.commit('setLoginMessage', null);
+  }
+});
 
 // login with email and password
 const handleSubmit = async () => {
@@ -132,7 +144,7 @@ const handleSubmit = async () => {
 
         setToken(token);
         showSucess('Login success');
-
+        router.push('/');
       }
       else {
         showError('Login failed');
@@ -176,5 +188,7 @@ const resetError = () => {
   emailError.value = '';
   passwordError.value = '';
 };
+
+
 
 </script>

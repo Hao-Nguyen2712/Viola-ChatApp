@@ -24,6 +24,14 @@ export function showWarning(message) {
   })
 }
 
+export function showInfo(message) {
+  Swal.fire({
+    icon: 'info',
+    title: 'Info!',
+    text: message,
+  })
+}
+
 let swalLoading = true
 
 export function showLoading(message = 'Waiting...') {
